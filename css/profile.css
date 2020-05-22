@@ -1,0 +1,76 @@
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align : center;
+    background-color :#fdd2e5;
+    font-size : 50px; 
+}
+h2{
+    margin-top: 20px;margin-bottom: 20px;
+    text-align : center;
+    background-color :#7ed5e6;
+    font-size: 30px;
+} 
+h3{
+  background-color: #fee571;
+  text-align: right;
+  font-size: 25px;
+  margin-bottom: 0px;margin-top: 0px;
+}
+label{
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+}
+body{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../images/final.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section{
+  background-color: #bcf1d7;
+  display: inline-block;
+  margin: 2%;
+}
+select{
+  background-color: #e1d3f6;
+  display: inline-block;
+  margin: 5%;
+  
+}
+button{
+  background-color: #d37e1f;
+  display: inline-block;
+  margin-inline:20%;
+  text-align: center;
+  padding: 7px 7px ;
+}
+footer{
+  text-align: center;
+  font-size: 25px;
+  font-family:Impact, Charcoal, sans-serif;
+  background-color: #74d9e9;
+ 
+}
+*{
+  box-sizing: border-box;
+}
+.container {
+  position: left;
+  right: 0;
+  margin: 20px;
+  max-width: 1000px;
+  padding: 16px;
+  background-color: white;
+  border-style: inset;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+   /* Should be removed. Only for demonstration */
+}
